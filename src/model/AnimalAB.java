@@ -24,17 +24,17 @@ public abstract class AnimalAB implements AnimalIF {
     }
 
     @Override
-    public void comer(String alimento){
+    public void comer(String alimento) {
         System.out.println(nome + " comeu " + alimento);
-    };
+    }
 
     @Override
     public abstract void moverse(String distancia);
 
     @Override
-    public void dormir(String qtdHoras){
+    public void dormir(String qtdHoras) {
         System.out.println(nome + " dormiu " + qtdHoras);
-    };
+    }
 
     public String getNome() {
         return nome;
